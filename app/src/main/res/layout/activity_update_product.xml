@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddProduct">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Update Product"/>
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:queryHint="Search Here"
+        android:iconifiedByDefault="false"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:text="Product Name"
+        />
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/ctgy_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:queryHint="Search Here"
+        android:iconifiedByDefault="false"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:text="Category"
+        />
+
+
+    <!--    <Spinner-->
+    <!--        android:id="@+id/ctgy_et"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="46dp" />-->
+    <EditText
+        android:id="@+id/ctgy_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Category"
+        android:inputType="text"
+        android:text="" />
+    <TextView
+        android:id="@+id/expiry_date_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Here"
+        android:text="Expiry Date" />
+
+    <EditText
+        android:id="@+id/expiry_date_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date"
+        android:text="" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/num_days_tv"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:queryHint="Search Here"-->
+    <!--        android:iconifiedByDefault="false"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:background="@color/colorPrimary"-->
+    <!--        android:text="Number of Days in Advance to be notified for Expiry"-->
+    <!--        />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/num_days_et"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="10"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:hint="Number of Days"-->
+    <!--        android:text="" />-->
+
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Save All Changes"
+            android:background="@color/colorAccent"
+            android:layout_margin="20dp"/>
+</LinearLayout>

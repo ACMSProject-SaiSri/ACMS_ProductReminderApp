@@ -15,27 +15,27 @@ import android.util.Log;
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.TaskStackBuilder;
+public class AlarmReceiver  extends BroadcastReceiver{
 
-public class AlarmReceiver extends BroadcastReceiver{
     private String TAG = "notification";
     @TargetApi(Build.VERSION_CODES.O)
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     @Override
     public void onReceive(Context context, Intent intent) {
-
-
-            Intent notificationIntent = new Intent(context, NotificationActivity.class);
-            notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        System.out.println("in receiver class");
+        String name=intent.getExtras().getString("item_name");
+        Intent notificationIntent = new Intent(context, NotificationActivity.class);
+        notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
         PendingIntent pendingIntent = PendingIntent.getActivity(context,100,notificationIntent,PendingIntent.FLAG_UPDATE_CURRENT);
 
-            String CHANNEL_ID="MYCHANNEL";
-            Log.d(TAG, "databases content"+ " in receiver");
+        String CHANNEL_ID="MYCHANNEL";
+        Log.d(TAG, "databases content"+ " in receiver");
 
-        NotificationChannel notificationChannel=new NotificationChannel(CHANNEL_ID,"name",NotificationManager.IMPORTANCE_LOW);
+        NotificationChannel notificationChannel=new NotificationChannel(CHANNEL_ID,"name",NotificationManager.IMPORTANCE_DEFAULT);
 
         Notification notification=new Notification.Builder(context.getApplicationContext(),CHANNEL_ID)
-                .setContentText("Product xyz expires today")
+                .setContentText("Your Product -"+name+"..expires today")
                 .setContentTitle("My Reminder App")
                 .setContentIntent(pendingIntent)
                 .addAction(android.R.drawable.sym_action_chat,"go to app",pendingIntent)
@@ -51,11 +51,10 @@ public class AlarmReceiver extends BroadcastReceiver{
 
 
 
-            NotificationManager notificationManager=(NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+        NotificationManager notificationManager=(NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         assert notificationManager != null;
         notificationManager.createNotificationChannel(notificationChannel);
-            notificationManager.notify(100,notification);
+        notificationManager.notify(100,notification);
 
     }
-
 }

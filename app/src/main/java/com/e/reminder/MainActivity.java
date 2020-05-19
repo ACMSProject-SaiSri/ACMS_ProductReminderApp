@@ -1,52 +1,84 @@
 package com.e.reminder;
 
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
-import android.os.Build;
+import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.app.AlarmManager ;
-import android.app.PendingIntent ;
-import android.content.Intent ;
-import android.os.Bundle ;
 import android.util.Log;
-import android.view.View ;
+import android.view.Gravity;
+import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
-import java.util.Calendar ;
+import com.amazonaws.mobileconnectors.dynamodbv2.document.datatype.Document;
+import com.amazonaws.mobileconnectors.dynamodbv2.document.datatype.DynamoDBEntry;
+
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    Button btn1;
-    private String TAG = "notification";
-    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+    String flag;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btn1=findViewById(R.id.btn1);
-
-        btn1.setOnClickListener(new View.OnClickListener() {
+        Button login=findViewById(R.id.btnlogin);
+        TextView signup=findViewById(R.id.btnsignup);
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d(TAG, "databases content"+ " button clicked");
-                Calendar cal = Calendar.getInstance();
-                cal.add(Calendar.HOUR_OF_DAY,0);
-                cal.add(Calendar.MINUTE,02);
-                cal.add(Calendar.SECOND,00);
-                Intent intent = new Intent(getApplicationContext(),AlarmReceiver.class);
+                EditText email_et=findViewById(R.id.etemail);
+                EditText passwd_et=findViewById(R.id.etpass);
+                String emails=email_et.getText().toString();
+                String passwds=passwd_et.getText().toString();
 
-                PendingIntent broadcast = PendingIntent.getBroadcast(getApplicationContext(), 100, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-                AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-                alarmManager.setExact(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(), broadcast);
+                flag=authenticate(emails,passwds);
+                if(!flag.equals("")){
+                    System.out.println(flag);
+                    Intent intent=new Intent(MainActivity.this, ListActivity.class);
+                    intent.putExtra("name",flag);
+                    startActivity(intent);
+                }
+                else{
+                    Toast toast = Toast.makeText(getApplicationContext(), "Invalid credentials.....", Toast.LENGTH_SHORT);
+                    toast.setGravity(Gravity.TOP|Gravity.CENTER_HORIZONTAL, 0, 0);
+                    toast.show();
+                }
+
             }
         });
 
-
-
-
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(), Signup.class);
+                startActivity(intent);
+            }
+        });
     }
 
+
+    String authenticate(String email,String passwd){
+//        GetUserAsyncTask task = new GetUserAsyncTask();
+        Document user = new Document();
+        user.put("email_id",email);
+        user.put("password",passwd);
+//        task.execute(user);
+
+        //should validate the password.for now just sending some dummy name
+        return "swathi";
     }
 
 
+    private class GetUserAsyncTask extends AsyncTask<Document, Void, Void> {
+        @Override
+        protected Void doInBackground(Document... users) {
+            ProductsTableDatabaseAccess databaseAccess = ProductsTableDatabaseAccess.getInstance(MainActivity.this);
+            User userdet = databaseAccess.getUser(users[0].get("email_id").toString());
+            System.out.println(userdet);
+            return null;
+        }
+    }
+}
