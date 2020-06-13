@@ -1,0 +1,10 @@
+#Tue May 19 21:20:02 IST 2020
+path.2=classes3.dex
+path.1=classes2.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=C\:\\Users\\Akanksha\\Documents\\sem6\\ACMS\\ACMS\\Crude_operations\\ACMS_ProductReminderApp\\app\\build\\intermediates\\dex\\debug\\out\\classes3.dex
+base.1=C\:\\Users\\Akanksha\\Documents\\sem6\\ACMS\\ACMS\\Crude_operations\\ACMS_ProductReminderApp\\app\\build\\intermediates\\dex\\debug\\out\\classes2.dex
+base.0=C\:\\Users\\Akanksha\\Documents\\sem6\\ACMS\\ACMS\\Crude_operations\\ACMS_ProductReminderApp\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductDetails">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:textSize="20dp"
+        android:text="Product Details"/>
+    <LinearLayout
+        android:id = "@+id/relativeLayoutname"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        >
+
+        <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "40dp"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:layout_margin="20dp"
+            android:text = "Name"
+            android:textSize="15dp"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/prod_name"
+            android:layout_width = "0dp"
+            android:layout_height = "40dp"
+            android:layout_margin="20dp"
+            android:layout_weight = "2"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Product Name"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id = "@+id/relativeLayoutdetails"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        >
+    </LinearLayout>
+    <LinearLayout
+        android:id = "@+id/relativeLayoutcategory"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        >
+
+        <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "40dp"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:layout_margin="20dp"
+            android:text = "Category"
+            android:textSize="15dp"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/prod_category"
+            android:layout_width = "0dp"
+            android:layout_height = "40dp"
+            android:layout_margin="20dp"
+            android:layout_weight = "2"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Category"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id = "@+id/relativeLayoutexpiry"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        >
+
+        <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "40dp"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:layout_margin="20dp"
+            android:text = "Expiry"
+            android:textSize="15dp"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/exp_date"
+            android:layout_width = "0dp"
+            android:layout_height = "40dp"
+            android:layout_margin="20dp"
+            android:layout_weight = "2"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:inputType="date"
+            android:text = "24/02/2021"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Info"
+        android:background="@color/colorAccent"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#FFFFFF"
+        android:background="#EE0256"
+        android:hint="Delete" />
+
+
+
+</LinearLayout>
+    <!--android:divider="@null"-->
