@@ -86,18 +86,7 @@ public class ProductsTableDatabaseAccess {
             result.add(new Product(doc));
         }
         Collections.sort(result,Collections.reverseOrder());
-        int size = result.size();
-        System.out.println(size);
-        if (size<=10)
-        {
-            return result;
-        }
-        else
-        {
-            ArrayList<Product> res = new ArrayList<Product>(result.subList(0, 10));
-            return res;
-
-        }
+        return result;
     }
 
     public User getUser(String key) {

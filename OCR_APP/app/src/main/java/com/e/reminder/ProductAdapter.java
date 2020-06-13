@@ -11,6 +11,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class ProductAdapter extends ArrayAdapter<Product> {
     private ArrayList<Product> productsList;
@@ -20,7 +22,7 @@ public class ProductAdapter extends ArrayAdapter<Product> {
     public ProductAdapter(@NonNull Context context, @NonNull ArrayList<Product> products) {
         super(context, 0, products);
         this.productsList = products;
-        this.filteredList = products;
+        this.filteredList = getTop10List(productsList);
 
         getFilter();
     }
@@ -100,8 +102,9 @@ public class ProductAdapter extends ArrayAdapter<Product> {
                 filterResults.count = tempList.size();
                 filterResults.values = tempList;
             } else {
-                filterResults.count = productsList.size();
-                filterResults.values = productsList;
+                ArrayList<Product> top10 = getTop10List(productsList);
+                filterResults.count = top10.size();
+                filterResults.values = top10;
             }
 
             return filterResults;
@@ -113,5 +116,16 @@ public class ProductAdapter extends ArrayAdapter<Product> {
             filteredList = (ArrayList<Product>) results.values;
             notifyDataSetChanged();
         }
+    }
+
+    private static ArrayList<Product> getTop10List(ArrayList<Product> productsList) {
+        ArrayList<Product> top10;
+        if (productsList.size() <= 10) {
+            top10 = productsList;
+        } else {
+            top10 = new ArrayList<>(productsList.subList(0, 10));
+        }
+
+        return top10;
     }
 }
