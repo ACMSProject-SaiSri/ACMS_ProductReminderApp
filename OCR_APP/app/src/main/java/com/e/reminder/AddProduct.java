@@ -287,6 +287,14 @@ public class AddProduct extends AppCompatActivity {
                     }
 
                     System.out.println(sb.toString());
+                    String full_date=sb.toString();
+                    String[] split = full_date.split("/");
+                    String day=split[0];
+                    String month=split[1];
+                    String year=split[2];
+                    System.out.println("day"+day);
+                    System.out.println("month"+month);
+                    System.out.println("year"+year);
                     scanResult.setText(sb.toString());
 
                 }
