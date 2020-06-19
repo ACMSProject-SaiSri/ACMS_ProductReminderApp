@@ -85,7 +85,7 @@ public class ProductsTableDatabaseAccess {
         for (Document doc : searchResult.getAllResults()) {
             result.add(new Product(doc));
         }
-        Collections.sort(result,Collections.reverseOrder());
+        Collections.sort(result);
         return result;
     }
 

@@ -11,16 +11,18 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
+
+import timber.log.Timber;
 
 public class ProductAdapter extends ArrayAdapter<Product> {
+    private ArrayList<Product> originalList;
     private ArrayList<Product> productsList;
     private ArrayList<Product> filteredList;
     private ProductsFilter productsFilter;
 
     public ProductAdapter(@NonNull Context context, @NonNull ArrayList<Product> products) {
         super(context, 0, products);
+        this.originalList = products;
         this.productsList = products;
         this.filteredList = getTop10List(productsList);
 
@@ -78,6 +80,28 @@ public class ProductAdapter extends ArrayAdapter<Product> {
         }
 
         return productsFilter;
+    }
+
+    public void doCategoryFilter(String category, CharSequence query) {
+        if (category.isEmpty()) {
+            Timber.d("original list is : %s", this.originalList);
+            this.productsList = new ArrayList<>(this.originalList);
+            this.filteredList = this.productsList;
+            getFilter().filter(query);
+            return;
+        }
+
+        this.productsList = this.originalList;
+        ArrayList<Product> tempList = new ArrayList<>();
+        for (Product product : this.productsList) {
+            if (product.getCategory().equalsIgnoreCase(category)) {
+                tempList.add(product);
+            }
+        }
+        this.productsList = tempList;
+        this.filteredList = productsList;
+
+        getFilter().filter(query);
     }
 
     /**
