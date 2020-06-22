@@ -1,0 +1,15 @@
+private static final String MODEL_NAME = "file:///android_asset/regression_model.pb";
+private static final String INPUT_NODE = "dense_input:0";
+private static final String OUTPUT_NODE = "dense_2/Relu:0";
+private static final long[] INPUT_SHAPE = {1,25};
+
+
+
+TensorFlowInferenceInterface tensorFlowInferenceInterface = new TensorFlowInferenceInterface(getAssets(), MODEL_NAME);
+float[] floatArray = {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+tensorFlowInferenceInterface.feed(INPUT_NODE, floatArray, INPUT_SHAPE);
+tensorFlowInferenceInterface.run(new String[] {OUTPUT_NODE});
+float[] results = {0.0f};
+tensorFlowInferenceInterface.fetch(OUTPUT_NODE, results);
+//System.out.println("Model loa");
+System.out.println(results[0]);
