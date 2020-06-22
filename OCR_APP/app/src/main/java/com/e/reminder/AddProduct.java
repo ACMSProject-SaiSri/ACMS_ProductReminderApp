@@ -8,8 +8,6 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import android.Manifest;
-import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ContentValues;
 import android.content.DialogInterface;
@@ -22,9 +20,9 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.util.Log;
 import android.util.SparseArray;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -40,8 +38,8 @@ import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
 
 import java.util.ArrayList;
-import java.util.PropertyPermission;
 import java.util.Calendar;
+import java.util.List;
 import java.util.UUID;
 
 public class AddProduct extends AppCompatActivity {
@@ -55,14 +53,27 @@ public class AddProduct extends AppCompatActivity {
 
     String cameraPermission[];
     String storagePermission[];
-
+    ArrayList<Product> res;
     Uri image_uri;
+
+    private AsyncTask categoryofItemsAsyncTask = new GetCategoryofItemsAsyncTask();
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_product);
+        categoryofItemsAsyncTask.execute(new String[]{""});
+
+
+
+//create a list of items for the spinner.
+        String[] items = new String[]{"1", "2", "three"};
+
+
+       // System.out.print(res);
+
+//
 
         scanResult = findViewById(R.id.expiry_date_et);
         previewImage = findViewById(R.id.image_preview);
@@ -274,6 +285,8 @@ public class AddProduct extends AppCompatActivity {
                 Bitmap bitmap = bitmapDrawable.getBitmap();
                 TextRecognizer textRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();
 
+
+                //FROM HERE
                 if (!textRecognizer.isOperational()) {
                     Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();
                 } else {
@@ -287,7 +300,17 @@ public class AddProduct extends AppCompatActivity {
                     }
 
                     System.out.println(sb.toString());
+                    String full_date=sb.toString();
+                    String[] split = full_date.split("/");
+                    String day=split[0];
+                    String month=split[1];
+                    String year=split[2];
+                    System.out.println("day"+day);
+                    System.out.println("month"+month);
+                    System.out.println("year"+year);
                     scanResult.setText(sb.toString());
+
+                    //TILL HERE
 
                 }
             } else if (resultCode == CropImage.CROP_IMAGE_ACTIVITY_RESULT_ERROR_CODE) {
@@ -297,14 +320,36 @@ public class AddProduct extends AppCompatActivity {
             }
         }
     }
+    private class GetCategoryofItemsAsyncTask extends AsyncTask<String, Void, ArrayList<String>> {
+        @Override
+        protected ArrayList<String> doInBackground(String... params) {
+            ProductsTableDatabaseAccess productsTableDatabaseAccess = ProductsTableDatabaseAccess.getInstance(AddProduct.this);
 
-
+            System.out.print("hey");
+            return new ArrayList<>(productsTableDatabaseAccess.getAllCategory());
+        }
+        @Override
+        protected void onPostExecute(ArrayList<String> categorylist) {
+            Spinner dropdown = findViewById(R.id.ctgy_et);
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, categorylist);
+        dropdown.setAdapter(adapter);
+        }
+    }
     private class CreateItemAsyncTask extends AsyncTask<Product, Void, Void> {
         @Override
         protected Void doInBackground(Product... products) {
             ProductsTableDatabaseAccess databaseAccess = ProductsTableDatabaseAccess.getInstance(AddProduct.this);
+
+            res = databaseAccess.getAllContents();
+            System.out.print(res);
             databaseAccess.CreateProduct(products[0]);
             return null;
         }
     }
 }
+
+
+
+
+
+

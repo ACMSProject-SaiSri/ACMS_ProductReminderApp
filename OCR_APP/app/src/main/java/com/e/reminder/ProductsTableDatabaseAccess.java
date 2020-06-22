@@ -70,7 +70,29 @@ public class ProductsTableDatabaseAccess {
         }
         return result;
     }
+    public ArrayList<String> getAllCategory() {
+        ScanOperationConfig scanConfig = new ScanOperationConfig();
+        List<String> attributeList = new ArrayList<>();
+        attributeList.add("category");
+        scanConfig.withAttributesToGet(attributeList);
+        System.out.println("In get all category");
+        Search searchResult = dbTable.scan(scanConfig);
+        ArrayList<Product> result = new ArrayList<>();
+        ArrayList<String> check = new ArrayList<>();
+        for (Document doc : searchResult.getAllResults()) {
+            result.add(new Product(doc));
+        }
+        Collections.sort(result,Collections.reverseOrder());
+        for(Product p : result)
+        {
+            if (!check.contains(p.getCategory()))
+            {
+                check.add(p.getCategory());
+            }
 
+        }
+        return check;
+    }
     public ArrayList<Product> getAllContents() {
         ScanOperationConfig scanConfig = new ScanOperationConfig();
         List<String> attributeList = new ArrayList<>();
@@ -85,7 +107,7 @@ public class ProductsTableDatabaseAccess {
         for (Document doc : searchResult.getAllResults()) {
             result.add(new Product(doc));
         }
-        Collections.sort(result);
+        Collections.sort(result,Collections.reverseOrder());
         return result;
     }
 
