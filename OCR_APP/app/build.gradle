@@ -60,5 +60,6 @@ dependencies {
     implementation 'com.amazonaws:aws-android-sdk-ddb-document:2.6.31'
     implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
     implementation 'com.google.android.gms:play-services-vision:20.0.0'
+    implementation 'org.tensorflow:tensorflow-android:1.8.0'
 
 }

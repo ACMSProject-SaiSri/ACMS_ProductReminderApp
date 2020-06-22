@@ -35,6 +35,7 @@ MERGED from [androidx.customview:customview:1.0.0] C:\Users\Akanksha\.gradle\cac
 MERGED from [androidx.core:core:1.2.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\963fda27c390a5391e961c4eba719b45\core-1.2.0\AndroidManifest.xml:17:1-26:12
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\681e9067cb91cb4b63e1b37805403fa0\jetified-timber-4.7.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.9.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\b8edb63fae93aa0716edb0c25e239f30\jetified-aws-android-sdk-auth-core-2.9.2\AndroidManifest.xml:2:1-4:80
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\3c2761c476e84987a3dd7df866d2a030\jetified-tensorflow-android-1.13.1\AndroidManifest.xml:2:1-8:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\a87a91cfc12796be4a5399f6708c1bed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\4b326e320f7fb8e89e2bb3879ac950d2\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ba74e7a1df14494ca70ea72adf4fc3bf\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -109,6 +110,8 @@ MERGED from [androidx.core:core:1.2.0] C:\Users\Akanksha\.gradle\caches\transfor
 MERGED from [androidx.core:core:1.2.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\963fda27c390a5391e961c4eba719b45\core-1.2.0\AndroidManifest.xml:24:5-89
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\681e9067cb91cb4b63e1b37805403fa0\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\681e9067cb91cb4b63e1b37805403fa0\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\3c2761c476e84987a3dd7df866d2a030\jetified-tensorflow-android-1.13.1\AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\3c2761c476e84987a3dd7df866d2a030\jetified-tensorflow-android-1.13.1\AndroidManifest.xml:5:5-6:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\0e4335c82d4d573388d62295e89eaaed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\0e4335c82d4d573388d62295e89eaaed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
@@ -297,3 +300,7 @@ ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Akank
 		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-37:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-37:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE

@@ -1595,6 +1595,7 @@ id blocking
 id bottom
 id btn_add
 id btn_delete
+id btn_predict
 id btn_save
 id btn_scan_date
 id btn_update

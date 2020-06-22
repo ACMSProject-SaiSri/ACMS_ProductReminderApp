@@ -25,83 +25,86 @@
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 15-->[com.amazonaws:aws-android-sdk-mobile-client:2.9.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\763722e3dcf31fae027ee93bee9f856d\jetified-aws-android-sdk-mobile-client-2.9.2\AndroidManifest.xml:7:5-78
 15-->[com.amazonaws:aws-android-sdk-mobile-client:2.9.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\763722e3dcf31fae027ee93bee9f856d\jetified-aws-android-sdk-mobile-client-2.9.2\AndroidManifest.xml:7:22-76
-16
-17    <application
-17-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:10:5-35:19
-18        android:name="androidx.multidex.MultiDexApplication"
-19        android:allowBackup="true"
-19-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:11:9-35
-20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.2.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\963fda27c390a5391e961c4eba719b45\core-1.2.0\AndroidManifest.xml:24:18-86
-21        android:debuggable="true"
-22        android:icon="@mipmap/ic_launcher"
-22-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:12:9-43
-23        android:label="@string/app_name"
-23-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:13:9-41
-24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:14:9-54
-25        android:supportsRtl="true"
-25-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:15:9-35
-26        android:theme="@style/AppTheme" >
-26-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:16:9-40
-27        <activity android:name="com.e.reminder.Signup" />
-27-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:17:9-53
-27-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:17:19-41
-28        <activity android:name="com.e.reminder.ProductDetails" />
-28-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:18:9-61
-28-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:18:19-49
-29        <activity android:name="com.e.reminder.UpdateProduct" />
-29-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:19:9-60
-29-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:19:19-48
-30        <activity android:name="com.e.reminder.AddProduct" />
-30-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:20:9-48
-30-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:20:19-45
-31        <activity android:name="com.e.reminder.MainActivity" >
-31-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:21:9-27:20
-31-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:21:19-47
-32            <intent-filter>
-32-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:22:13-26:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:23:17-69
-33-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:23:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:25:17-77
-35-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:25:27-74
-36            </intent-filter>
-37        </activity>
-38        <activity android:name="com.e.reminder.NotificationActivity" />
-38-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:28:9-58
-38-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:28:19-55
-39
-40        <receiver android:name="com.e.reminder.AlarmReceiver" />
-40-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:30:9-51
-40-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:30:19-48
-41
-42        <activity android:name="com.e.reminder.ListActivity" />
-42-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:32:9-50
-42-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:32:19-47
-43        <activity
-43-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:33:9-34:58
-44            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-44-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:33:19-82
-45            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
-45-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:34:13-56
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18
+19    <application
+19-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:10:5-35:19
+20        android:name="androidx.multidex.MultiDexApplication"
+21        android:allowBackup="true"
+21-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:11:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.2.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\963fda27c390a5391e961c4eba719b45\core-1.2.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:12:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:13:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:14:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:15:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:16:9-40
+30        <activity android:name="com.e.reminder.Signup" />
+30-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:17:9-53
+30-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:17:19-41
+31        <activity android:name="com.e.reminder.ProductDetails" />
+31-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:18:9-61
+31-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:18:19-49
+32        <activity android:name="com.e.reminder.UpdateProduct" />
+32-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:19:9-60
+32-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:19:19-48
+33        <activity android:name="com.e.reminder.AddProduct" />
+33-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:20:9-48
+33-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:20:19-45
+34        <activity android:name="com.e.reminder.MainActivity" >
+34-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:21:9-27:20
+34-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:21:19-47
+35            <intent-filter>
+35-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:22:13-26:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:23:17-69
+36-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:23:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:25:17-77
+38-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:25:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.e.reminder.NotificationActivity" />
+41-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:28:9-58
+41-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:28:19-55
+42
+43        <receiver android:name="com.e.reminder.AlarmReceiver" />
+43-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:30:9-51
+43-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:30:19-48
+44
+45        <activity android:name="com.e.reminder.ListActivity" />
+45-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:32:9-50
+45-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:32:19-47
 46        <activity
-46-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-47-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-48            android:exported="false"
-48-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-49-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-50
-51        <meta-data
-51-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-52            android:name="com.google.android.gms.version"
-52-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-53            android:value="@integer/google_play_services_version" />
-53-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-54    </application>
-55
-56</manifest>
+46-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:33:9-34:58
+47            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+47-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:33:19-82
+48            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
+48-->C:\Users\Akanksha\Documents\sem6\ACMS\ACMS\Crude_operations\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:34:13-56
+49        <activity
+49-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+50            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+50-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+51            android:exported="false"
+51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+53
+54        <meta-data
+54-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+55            android:name="com.google.android.gms.version"
+55-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+56            android:value="@integer/google_play_services_version" />
+56-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+57    </application>
+58
+59</manifest>

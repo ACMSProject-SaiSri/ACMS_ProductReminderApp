@@ -163,5 +163,6 @@
     <orderEntry type="library" name="Gradle: com.amazonaws:aws-android-sdk-auth-core:2.9.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.jakewharton.timber:timber:4.7.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.tensorflow:tensorflow-android:1.8.0@aar" level="project" />
   </component>
 </module>

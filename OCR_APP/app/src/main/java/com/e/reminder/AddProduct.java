@@ -39,6 +39,9 @@ import com.google.android.gms.vision.text.TextRecognizer;
 import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
 
+import org.tensorflow.contrib.android.TensorFlowInferenceInterface;
+
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.PropertyPermission;
 import java.util.Calendar;
@@ -53,6 +56,10 @@ public class AddProduct extends AppCompatActivity {
     private static final int IMAGE_PICK_GALLERY_CODE = 1000;
     private static final int IMAGE_PICK_CAMERA_CODE = 1001;
 
+    private static final String MODEL_NAME = "file:///android_asset/regression_model.pb";
+    private static final String INPUT_NODE = "dense_input:0";
+    private static final String OUTPUT_NODE = "dense_2/Relu:0";
+    private static final long[] INPUT_SHAPE = {1,25};
     String cameraPermission[];
     String storagePermission[];
 
@@ -70,6 +77,16 @@ public class AddProduct extends AppCompatActivity {
         cameraPermission = new String[]{Manifest.permission.CAMERA,Manifest.permission.WRITE_EXTERNAL_STORAGE};
         storagePermission = new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE};
 
+        Button predict = findViewById(R.id.btn_predict);
+        predict.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                System.out.println("clicked Load model");
+                loadModel();
+
+
+            }
+        });
 
         Button ScanDate = findViewById(R.id.btn_scan_date);
 
@@ -78,6 +95,7 @@ public class AddProduct extends AppCompatActivity {
             public void onClick(View v) {
                 System.out.println("clicked");
                 showImageImportDialog();
+
 
             }
         });
@@ -145,7 +163,22 @@ public class AddProduct extends AppCompatActivity {
 
     }
 
-
+    private void loadModel()
+    {
+        try{
+            TensorFlowInferenceInterface tensorFlowInferenceInterface = new TensorFlowInferenceInterface(getAssets(), MODEL_NAME);
+            float[] floatArray = {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+            tensorFlowInferenceInterface.feed(INPUT_NODE, floatArray, INPUT_SHAPE);
+            tensorFlowInferenceInterface.run(new String[] {OUTPUT_NODE});
+            float[] results = {0.0f};
+            tensorFlowInferenceInterface.fetch(OUTPUT_NODE, results);
+//            System.out.println("Model loa");
+            System.out.println(results[0]);
+        }
+        catch (IllegalArgumentException e){
+            System.out.println(e);
+        }
+    }
     private void showImageImportDialog() {
         String[] items = {"Camera","Gallery"};
         AlertDialog.Builder dialog = new AlertDialog.Builder(this);
@@ -287,14 +320,6 @@ public class AddProduct extends AppCompatActivity {
                     }
 
                     System.out.println(sb.toString());
-                    String full_date=sb.toString();
-                    String[] split = full_date.split("/");
-                    String day=split[0];
-                    String month=split[1];
-                    String year=split[2];
-                    System.out.println("day"+day);
-                    System.out.println("month"+month);
-                    System.out.println("year"+year);
                     scanResult.setText(sb.toString());
 
                 }
