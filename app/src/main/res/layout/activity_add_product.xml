@@ -45,18 +45,18 @@
         />
 
 
-<!--    <Spinner-->
-<!--        android:id="@+id/ctgy_et"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="46dp" />-->
-    <EditText
+    <Spinner
         android:id="@+id/ctgy_et"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Category"
-        android:inputType="text"
-        android:text="" />
+        android:layout_height="46dp" />
+<!--    <EditText-->
+<!--        android:id="@+id/ctgy_et"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Category"-->
+<!--        android:inputType="text"-->
+<!--        android:text="" />-->
     <TextView
         android:id="@+id/expiry_date_tv"
         android:layout_width="match_parent"

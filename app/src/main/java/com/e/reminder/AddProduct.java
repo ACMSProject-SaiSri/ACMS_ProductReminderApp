@@ -26,6 +26,7 @@ import android.util.Log;
 import android.util.SparseArray;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -109,6 +110,11 @@ public class AddProduct extends AppCompatActivity {
         mapping.put("Legumes",27);
         mapping.put("Desserts/candy",28);
 
+        // Category drop down
+        ArrayList<String> categorylist = new ArrayList<>(mapping.keySet());
+        Spinner dropdown = findViewById(R.id.ctgy_et);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, categorylist);
+        dropdown.setAdapter(adapter);
 
 
 
@@ -117,8 +123,8 @@ public class AddProduct extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 System.out.println("clicked Load model");
-                EditText editTextcat = findViewById(R.id.ctgy_et);
-                String category=editTextcat.getText().toString();
+                Spinner dropDowncat = findViewById(R.id.ctgy_et);
+                String category=dropDowncat.getSelectedItem().toString();
                 loadModel(category,mapping);
 
 

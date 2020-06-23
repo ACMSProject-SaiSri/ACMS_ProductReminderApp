@@ -6,6 +6,10 @@ import com.amazonaws.mobileconnectors.dynamodbv2.document.datatype.Document;
 import com.amazonaws.services.dynamodbv2.model.AttributeValue;
 import com.amazonaws.util.StringUtils;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Map;
 
 public class Product implements Comparable<Product> {
@@ -92,6 +96,13 @@ public class Product implements Comparable<Product> {
         if (getExpiryDate() == null || u.getExpiryDate() == null) {
             return 0;
         }
-        return getExpiryDate().compareTo(u.getExpiryDate());
+        try {
+            SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+            Date curr = dateFormat.parse(getExpiryDate());
+            Date other = dateFormat.parse(u.getExpiryDate());
+            return curr.compareTo(other);
+        } catch (ParseException | NullPointerException e) {
+            return 0;
+        }
     }
 }

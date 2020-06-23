@@ -1605,6 +1605,7 @@ id btnsignupreg
 id buttonPanel
 id cancel_button
 id category
+id categorySpinner
 id center
 id centerCrop
 id centerInside
@@ -1700,7 +1701,6 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
-id itemid
 id labeled
 id large
 id largeLabel
@@ -1793,6 +1793,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchLin
 id searchView
 id search_badge
 id search_bar

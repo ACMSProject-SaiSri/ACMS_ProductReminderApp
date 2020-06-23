@@ -12,15 +12,19 @@ import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
 
+import timber.log.Timber;
+
 public class ProductAdapter extends ArrayAdapter<Product> {
+    private ArrayList<Product> originalList;
     private ArrayList<Product> productsList;
     private ArrayList<Product> filteredList;
     private ProductsFilter productsFilter;
 
     public ProductAdapter(@NonNull Context context, @NonNull ArrayList<Product> products) {
         super(context, 0, products);
+        this.originalList = products;
         this.productsList = products;
-        this.filteredList = products;
+        this.filteredList = getTop10List(productsList);
 
         getFilter();
     }
@@ -51,12 +55,12 @@ public class ProductAdapter extends ArrayAdapter<Product> {
             convertView = inflater.inflate(R.layout.search_layout, parent, false);
         }
         // Lookup view for data population
-        TextView itemId = convertView.findViewById(R.id.itemid);
+//        TextView itemId = convertView.findViewById(R.id.itemid);
         TextView name = convertView.findViewById(R.id.name);
         TextView category = convertView.findViewById(R.id.category);
         TextView expiry = convertView.findViewById(R.id.expiry);
         // Populate the data into the template view using the data object
-        itemId.setText(product.getItemid());
+//        itemId.setText(product.getItemid());
         name.setText(product.getName());
         category.setText(product.getCategory());
         expiry.setText(product.getExpiryDate());
@@ -76,6 +80,28 @@ public class ProductAdapter extends ArrayAdapter<Product> {
         }
 
         return productsFilter;
+    }
+
+    public void doCategoryFilter(String category, CharSequence query) {
+        if (category.isEmpty()) {
+            Timber.d("original list is : %s", this.originalList);
+            this.productsList = new ArrayList<>(this.originalList);
+            this.filteredList = this.productsList;
+            getFilter().filter(query);
+            return;
+        }
+
+        this.productsList = this.originalList;
+        ArrayList<Product> tempList = new ArrayList<>();
+        for (Product product : this.productsList) {
+            if (product.getCategory().equalsIgnoreCase(category)) {
+                tempList.add(product);
+            }
+        }
+        this.productsList = tempList;
+        this.filteredList = productsList;
+
+        getFilter().filter(query);
     }
 
     /**
@@ -100,8 +126,9 @@ public class ProductAdapter extends ArrayAdapter<Product> {
                 filterResults.count = tempList.size();
                 filterResults.values = tempList;
             } else {
-                filterResults.count = productsList.size();
-                filterResults.values = productsList;
+                ArrayList<Product> top10 = getTop10List(productsList);
+                filterResults.count = top10.size();
+                filterResults.values = top10;
             }
 
             return filterResults;
@@ -113,5 +140,16 @@ public class ProductAdapter extends ArrayAdapter<Product> {
             filteredList = (ArrayList<Product>) results.values;
             notifyDataSetChanged();
         }
+    }
+
+    private static ArrayList<Product> getTop10List(ArrayList<Product> productsList) {
+        ArrayList<Product> top10;
+        if (productsList.size() <= 10) {
+            top10 = productsList;
+        } else {
+            top10 = new ArrayList<>(productsList.subList(0, 10));
+        }
+
+        return top10;
     }
 }

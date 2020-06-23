@@ -21,31 +21,34 @@
         android:background="@color/colorAccent"
         android:text="Add a new product" />
 
-    <SearchView
-        android:id="@+id/searchView"
+    <LinearLayout
+        android:id="@+id/searchLin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:iconifiedByDefault="false"
-        android:queryHint="Search Here" />
+        android:orientation="horizontal" >
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="0dp"
+            android:layout_weight=".70"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search Here" />
+
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
 
     <!-- Here is the inserted layout -->
-    <include layout="@layout/search_layout"/>
+    <include layout="@layout/search_layout" />
 
     <LinearLayout
         android:id="@+id/relativeLayout0"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:background="@color/colorPrimary"
-            android:gravity="center"
-            android:padding="5dp"
-            android:text="S.No"
-            android:textSize="15dp" />
 
         <TextView
             android:layout_width="0dp"
@@ -79,7 +82,6 @@
     </LinearLayout>
 
 
-
     <ListView
         android:id="@+id/listview"
         android:layout_width="match_parent"
@@ -88,5 +90,4 @@
         android:divider="#ad5"
         android:dividerHeight="2dp" />
 
-</LinearLayout>
-            <!--android:divider="@null"-->
+</LinearLayout><!--android:divider="@null"-->
