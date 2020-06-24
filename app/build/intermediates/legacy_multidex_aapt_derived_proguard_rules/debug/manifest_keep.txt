@@ -1,4 +1,4 @@
-# Referenced at C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:19
+# Referenced at C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:19
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:19
+# Referenced at C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:19
 -keep class androidx.multidex.MultiDexApplication { <init>(); }

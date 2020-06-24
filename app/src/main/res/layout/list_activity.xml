@@ -11,7 +11,7 @@
         android:id="@+id/greeting_user"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Welcome User, Here are your products!"
+        android:text="Welcome!, Here are your products!"
         android:textSize="20dp" />
 
     <Button

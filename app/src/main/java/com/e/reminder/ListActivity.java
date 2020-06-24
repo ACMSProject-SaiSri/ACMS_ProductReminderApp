@@ -46,13 +46,13 @@ public class ListActivity extends AppCompatActivity {
         searchTask.execute(new String[]{""});
         TextView greeting = findViewById(R.id.greeting_user);
 
-        Intent intent = getIntent();
-        String name =intent.getStringExtra("name");
-        System.out.println("name: "+name);
-        greeting.setText("Hi! " + name + ".");
-        Toast toast = Toast.makeText(getApplicationContext(), "Welcome.."+name, Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.TOP|Gravity.CENTER_HORIZONTAL, 0, 0);
-        toast.show();
+//        Intent intent = getIntent();
+//        String name =intent.getStringExtra("name");
+//        System.out.println("name: "+name);
+//        greeting.setText("Hi! " + name + ".");
+//        Toast toast = Toast.makeText(getApplicationContext(), "Welcome.."+name, Toast.LENGTH_SHORT);
+//        toast.setGravity(Gravity.TOP|Gravity.CENTER_HORIZONTAL, 0, 0);
+//        toast.show();
 
         Button buttonAddProduct = findViewById(R.id.btn_add);
 

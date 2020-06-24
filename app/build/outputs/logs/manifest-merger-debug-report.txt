@@ -1,19 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d06b4eaf3d198c3fd9dc41c28e6252e3\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\56acd3bfa53da480c8277c93ac083703\material-1.2.0-alpha05\AndroidManifest.xml:17:1-24:12
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\f5af628382f81629b9cd2f9653c1a77b\jetified-android-image-cropper-2.8.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ef8a364a6a39421e69c96cf68eeb3e63\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\380cbbd0623e9b22e21961fc6ec82b14\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\3dd2a90cf4903229672e8d620934c6ca\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.9.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\763722e3dcf31fae027ee93bee9f856d\jetified-aws-android-sdk-mobile-client-2.9.2\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ec405108832dd0d34725ec01b1378307\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-vision:20.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\46d57deb6a55416a2d494110ca7676fb\jetified-play-services-vision-20.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\43d37ce512d5fb81838b77498f3f0d16\jetified-play-services-vision-common-19.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\bdfd8c84c49470539beb9825ba8b96ac\jetified-play-services-vision-20.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ff1dd2c4d45a9b99e20ee20726baea1c\jetified-play-services-vision-common-19.1.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d7de2d83b759e9aa3688ecfbbcaeb94f\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ff4a1490c9da6589978ad2abac4c9513\jetified-play-services-flags-17.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\367803db6020a48cc130a4453982a2a3\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:17:1-24:12
@@ -23,12 +22,12 @@ MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Akan
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\7eb3e9033e20967dc4b6eab4b9d34b59\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\a627ba2b0fb7cab1458068884dcfd7e5\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\369c371dbc36cd3420e0891af4dc30b8\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d1290085211f6ca31e4b44ad501b0e7c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\73b741376758043ca71b2712dd6b8e85\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\8820464f905e976a0e372e114ed12d81\transition-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\69b157e8ca7c4f8e65106af271a2dd62\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ee8663f4341a41303331ea0b304242d0\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\b685d122498cf50e728d648d063a2ff6\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d1290085211f6ca31e4b44ad501b0e7c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\db341947bb3b430f2ccfc05cfed8623a\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\4764869116b7944d884a78eb3b5d999f\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\3584c755b13ff246a30ea06b73bd9d78\customview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -38,9 +37,6 @@ MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.9.2] C:\Users\Akanksha\.g
 MERGED from [com.rmtheis:tess-two:9.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\3f1f02986428441243ada9c48307ea6c\jetified-tess-two-9.1.0\AndroidManifest.xml:17:1-26:12
 MERGED from [org.tensorflow:tensorflow-android:1.8.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\c6403f53538abe36a7542218a7f79cc5\jetified-tensorflow-android-1.8.0\AndroidManifest.xml:2:1-8:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\a87a91cfc12796be4a5399f6708c1bed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\4b326e320f7fb8e89e2bb3879ac950d2\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ba74e7a1df14494ca70ea72adf4fc3bf\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\5d6ed104b1267309eec087762b08ed9e\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\271d0ad8fab014e1b69399f7396f344c\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\4e38882eb964e66473ce5119ad391ade\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\0e4335c82d4d573388d62295e89eaaed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
@@ -52,55 +48,55 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Akanksha\.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d00c90699ae27cc1e1ce5e4b3e530617\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\13ac386f95e101744ae5f7d486caaa8c\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\bef2ac585d83c283d2fd49a0b9ae8f63\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:3:5-29
-		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
-		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
-		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.9.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\763722e3dcf31fae027ee93bee9f856d\jetified-aws-android-sdk-mobile-client-2.9.2\AndroidManifest.xml:6:5-66
 MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.9.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\763722e3dcf31fae027ee93bee9f856d\jetified-aws-android-sdk-mobile-client-2.9.2\AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#com.android.alarm.permission.SET_ALARM
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:6:5-78
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:6:5-78
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:6:22-75
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:6:22-75
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:7:5-65
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:7:22-62
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:7:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:8:5-81
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:8:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:10:5-80
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:10:22-77
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:10:22-77
 application
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:12:5-39:19
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:12:5-39:19
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\56acd3bfa53da480c8277c93ac083703\material-1.2.0-alpha05\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\56acd3bfa53da480c8277c93ac083703\material-1.2.0-alpha05\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\380cbbd0623e9b22e21961fc6ec82b14\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\380cbbd0623e9b22e21961fc6ec82b14\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-vision:20.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\46d57deb6a55416a2d494110ca7676fb\jetified-play-services-vision-20.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision:20.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\46d57deb6a55416a2d494110ca7676fb\jetified-play-services-vision-20.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\43d37ce512d5fb81838b77498f3f0d16\jetified-play-services-vision-common-19.0.2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\43d37ce512d5fb81838b77498f3f0d16\jetified-play-services-vision-common-19.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\bdfd8c84c49470539beb9825ba8b96ac\jetified-play-services-vision-20.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\bdfd8c84c49470539beb9825ba8b96ac\jetified-play-services-vision-20.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ff1dd2c4d45a9b99e20ee20726baea1c\jetified-play-services-vision-common-19.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ff1dd2c4d45a9b99e20ee20726baea1c\jetified-play-services-vision-common-19.1.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d7de2d83b759e9aa3688ecfbbcaeb94f\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d7de2d83b759e9aa3688ecfbbcaeb94f\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\367803db6020a48cc130a4453982a2a3\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
@@ -122,73 +118,73 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ak
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\963fda27c390a5391e961c4eba719b45\core-1.2.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:18:9-40
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:18:9-40
 activity#com.e.reminder.ocr
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:19:9-50
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:19:9-50
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:19:19-38
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:19:19-38
 activity#com.e.reminder.Signup
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:20:9-44
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:20:9-44
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:20:19-41
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:20:19-41
 activity#com.e.reminder.ProductDetails
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:21:9-52
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:21:9-52
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:21:19-49
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:21:19-49
 activity#com.e.reminder.UpdateProduct
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:22:9-51
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:22:9-51
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:22:19-48
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:22:19-48
 activity#com.e.reminder.AddProduct
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:23:9-48
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:23:9-48
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:23:19-45
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:23:19-45
 activity#com.e.reminder.MainActivity
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:24:9-30:20
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:24:19-47
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:24:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.e.reminder.NotificationActivity
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:31:9-58
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:31:9-58
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:31:19-55
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:31:19-55
 receiver#com.e.reminder.AlarmReceiver
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:33:9-51
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:33:9-51
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:33:19-48
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:33:19-48
 activity#com.e.reminder.ListActivity
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:35:9-50
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:35:9-50
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:35:19-47
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:35:19-47
 activity#com.theartofdev.edmodo.cropper.CropImageActivity
-ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:36:9-38:59
+ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:36:9-38:59
 	android:theme
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:38:13-56
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:38:13-56
 	android:name
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:37:13-76
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:37:13-76
 uses-sdk
-INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d06b4eaf3d198c3fd9dc41c28e6252e3\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d06b4eaf3d198c3fd9dc41c28e6252e3\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\56acd3bfa53da480c8277c93ac083703\material-1.2.0-alpha05\AndroidManifest.xml:20:5-44
@@ -199,16 +195,14 @@ MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Akanksha\.gradle\cache
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ef8a364a6a39421e69c96cf68eeb3e63\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\380cbbd0623e9b22e21961fc6ec82b14\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\380cbbd0623e9b22e21961fc6ec82b14\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\3dd2a90cf4903229672e8d620934c6ca\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\3dd2a90cf4903229672e8d620934c6ca\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.9.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\763722e3dcf31fae027ee93bee9f856d\jetified-aws-android-sdk-mobile-client-2.9.2\AndroidManifest.xml:4:5-73
 MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.9.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\763722e3dcf31fae027ee93bee9f856d\jetified-aws-android-sdk-mobile-client-2.9.2\AndroidManifest.xml:4:5-73
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ec405108832dd0d34725ec01b1378307\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ec405108832dd0d34725ec01b1378307\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-vision:20.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\46d57deb6a55416a2d494110ca7676fb\jetified-play-services-vision-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision:20.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\46d57deb6a55416a2d494110ca7676fb\jetified-play-services-vision-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\43d37ce512d5fb81838b77498f3f0d16\jetified-play-services-vision-common-19.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\43d37ce512d5fb81838b77498f3f0d16\jetified-play-services-vision-common-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\bdfd8c84c49470539beb9825ba8b96ac\jetified-play-services-vision-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\bdfd8c84c49470539beb9825ba8b96ac\jetified-play-services-vision-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ff1dd2c4d45a9b99e20ee20726baea1c\jetified-play-services-vision-common-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ff1dd2c4d45a9b99e20ee20726baea1c\jetified-play-services-vision-common-19.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d7de2d83b759e9aa3688ecfbbcaeb94f\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d7de2d83b759e9aa3688ecfbbcaeb94f\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ff4a1490c9da6589978ad2abac4c9513\jetified-play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
@@ -227,8 +221,6 @@ MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Akanksha\.gr
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\a627ba2b0fb7cab1458068884dcfd7e5\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\369c371dbc36cd3420e0891af4dc30b8\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\369c371dbc36cd3420e0891af4dc30b8\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d1290085211f6ca31e4b44ad501b0e7c\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d1290085211f6ca31e4b44ad501b0e7c\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\73b741376758043ca71b2712dd6b8e85\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\73b741376758043ca71b2712dd6b8e85\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\8820464f905e976a0e372e114ed12d81\transition-1.2.0\AndroidManifest.xml:20:5-22:41
@@ -239,6 +231,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Akanksha\.gr
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ee8663f4341a41303331ea0b304242d0\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\b685d122498cf50e728d648d063a2ff6\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\b685d122498cf50e728d648d063a2ff6\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d1290085211f6ca31e4b44ad501b0e7c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\d1290085211f6ca31e4b44ad501b0e7c\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\db341947bb3b430f2ccfc05cfed8623a\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\db341947bb3b430f2ccfc05cfed8623a\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\4764869116b7944d884a78eb3b5d999f\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -255,12 +249,6 @@ MERGED from [com.rmtheis:tess-two:9.1.0] C:\Users\Akanksha\.gradle\caches\transf
 MERGED from [com.rmtheis:tess-two:9.1.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\3f1f02986428441243ada9c48307ea6c\jetified-tess-two-9.1.0\AndroidManifest.xml:22:5-24:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\a87a91cfc12796be4a5399f6708c1bed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\a87a91cfc12796be4a5399f6708c1bed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\4b326e320f7fb8e89e2bb3879ac950d2\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\4b326e320f7fb8e89e2bb3879ac950d2\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ba74e7a1df14494ca70ea72adf4fc3bf\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\ba74e7a1df14494ca70ea72adf4fc3bf\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\5d6ed104b1267309eec087762b08ed9e\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\5d6ed104b1267309eec087762b08ed9e\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\271d0ad8fab014e1b69399f7396f344c\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\271d0ad8fab014e1b69399f7396f344c\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\4e38882eb964e66473ce5119ad391ade\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
@@ -283,16 +271,16 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Akanksha\.gradle\ca
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\13ac386f95e101744ae5f7d486caaa8c\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\bef2ac585d83c283d2fd49a0b9ae8f63\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\bef2ac585d83c283d2fd49a0b9ae8f63\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.9.2] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\763722e3dcf31fae027ee93bee9f856d\jetified-aws-android-sdk-mobile-client-2.9.2\AndroidManifest.xml:7:5-78
 	android:name
@@ -312,4 +300,4 @@ ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Akank
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Akanksha\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+IMPLIED from C:\Users\Akanksha\Documents\sem6\ACMS\OCR\final\ACMS_ProductReminderApp\app\src\main\AndroidManifest.xml:2:1-41:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4

@@ -52,6 +52,8 @@ import java.util.HashMap;
 import java.util.PropertyPermission;
 import java.util.Calendar;
 import java.util.UUID;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class AddProduct extends AppCompatActivity {
     EditText scanResult;
@@ -156,8 +158,8 @@ public class AddProduct extends AppCompatActivity {
 
                 EditText editTextn=findViewById(R.id.name_et);
                 String name=editTextn.getText().toString();
-                EditText editTextcat = findViewById(R.id.ctgy_et);
-                String category=editTextcat.getText().toString();
+                Spinner dropDowncat = findViewById(R.id.ctgy_et);
+                String category=dropDowncat.getSelectedItem().toString();
                 EditText editTextexp = findViewById(R.id.expiry_date_et);
                 String expiry_date=editTextexp.getText().toString();
                 String uniqueID = UUID.randomUUID().toString();
@@ -402,7 +404,23 @@ public class AddProduct extends AppCompatActivity {
                     }
 
                     System.out.println(sb.toString());
-                    scanResult.setText(sb.toString());
+                    String pls =sb.toString();
+                    String final1="";
+                    Matcher m = Pattern.compile("(\\d{1,2}/\\d{1,2}/\\d{4}|\\d{1,2}/\\d{1,2})", Pattern.CASE_INSENSITIVE).matcher(pls);
+                    while (m.find()) {
+                        System.out.println(m.group(1));
+                        final1=final1+m.group(1);
+                    }
+                    //System.out.println(final1);
+//                    String[] split = final1.split("/");
+//                    String day=split[0];
+//                    String month=split[1];
+//                    String year=split[2];
+//                    System.out.println("day "+day);
+//                    System.out.println("month "+month);
+//                    System.out.println("year "+year);
+
+                    scanResult.setText(final1);
 
                 }
             } else if (resultCode == CropImage.CROP_IMAGE_ACTIVITY_RESULT_ERROR_CODE) {

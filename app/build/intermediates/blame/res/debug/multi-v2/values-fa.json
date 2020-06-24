@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Akanksha\\Documents\\sem6\\ACMS\\OCR\\ACMS_ProductReminderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
+            "outputFile": "C:\\Users\\Akanksha\\Documents\\sem6\\ACMS\\OCR\\final\\ACMS_ProductReminderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Akanksha\\.gradle\\caches\\transforms-2\\files-2.1\\d810550874c071a7f5afc391a91fdc61\\jetified-play-services-base-17.0.0\\res\\values-fa\\values.xml",
